@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/project1-img.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import blogWebImg from "@/public/project1-img.png";
+import frontCommerceImg from "@/public/project2-img.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -66,16 +66,15 @@ export const projectsData = [
     description:
       "This is the first project that i made as a full stack developer.It needs bunch of upgrades.In this website you can share post delete edit whatever you want.",
     tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
-    imageUrl: corpcommentImg,
+    imageUrl: blogWebImg,
     live: "https://blog-website-inky-tau.vercel.app",
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    live: "https://blog-website-inky-tau.vercel.app",
+    title: "Front-end E-Commerce",
+    description: "That's made with just front-end basic e-commerce website.",
+    tags: ["React", "Javascript", "HTML", "CSS"],
+    imageUrl: frontCommerceImg,
+    live: "https://front-end-e-commerce-nine.vercel.app",
   },
   {
     title: "Word Analytics",
