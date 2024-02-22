@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import blogWebImg from "@/public/project1-img.png";
 import frontCommerceImg from "@/public/project2-img.png";
 import fullStackCommerceImg from "@/public/projec132.png";
+import socialMediaImg from "@/public/22.png";
 
 export const links = [
   {
@@ -61,6 +62,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Social Media App",
+    description:
+      "Thats my mona lisa.I've spent for so many times for this project.That was fun to make it",
+    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
+    imageUrl: socialMediaImg,
+    live: "https://social-media-eta-amber.vercel.app/login",
+  },
   {
     title: "Blog Website",
     description:
