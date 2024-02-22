@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import blogWebImg from "@/public/project1-img.png";
 import frontCommerceImg from "@/public/project2-img.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import fullStackCommerceImg from "@/public/projec132.png";
 
 export const links = [
   {
@@ -77,12 +77,12 @@ export const projectsData = [
     live: "https://front-end-e-commerce-nine.vercel.app",
   },
   {
-    title: "Word Analytics",
+    title: "Full-Stack E-Commerce",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    live: "https://blog-website-inky-tau.vercel.app",
+    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
+    imageUrl: fullStackCommerceImg,
+    live: "https://full-stack-e-commerce-eight.vercel.app/",
   },
 ] as const;
 
@@ -99,7 +99,6 @@ export const skillsData = [
   "C++",
   "C",
   "MongoDB",
-
   "Express",
   "PostgreSQL",
   "Python",
