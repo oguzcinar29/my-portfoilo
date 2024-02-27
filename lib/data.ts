@@ -6,6 +6,7 @@ import blogWebImg from "@/public/project1-img.png";
 import frontCommerceImg from "@/public/project2-img.png";
 import fullStackCommerceImg from "@/public/projec132.png";
 import socialMediaImg from "@/public/22.png";
+import nextTodo from "@/public/12.png";
 
 export const links = [
   {
@@ -92,6 +93,14 @@ export const projectsData = [
     tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
     imageUrl: fullStackCommerceImg,
     live: "https://full-stack-e-commerce-eight.vercel.app/",
+  },
+  {
+    title: "Nextjs Blog Website",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
+    imageUrl: nextTodo,
+    live: "https://nextjs-todo-omega.vercel.app/",
   },
 ] as const;
 
