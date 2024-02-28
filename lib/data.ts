@@ -68,7 +68,7 @@ export const projectsData = [
     title: "E-Commerce Website",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "CSS", "HTML", "Javascript"],
+    tags: ["React", "CSS", "HTML", "Javascrip3t"],
     imageUrl: niceEcommerce,
     live: "https://frontend-e-commerce-two-nu.vercel.app/",
   },
