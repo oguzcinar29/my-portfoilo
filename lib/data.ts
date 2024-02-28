@@ -7,6 +7,7 @@ import frontCommerceImg from "@/public/project2-img.png";
 import fullStackCommerceImg from "@/public/projec132.png";
 import socialMediaImg from "@/public/22.png";
 import nextTodo from "@/public/12.png";
+import niceEcommerce from "@/public/1231.png";
 
 export const links = [
   {
@@ -63,6 +64,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "E-Commerce Website",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "CSS", "HTML", "Javascript"],
+    imageUrl: niceEcommerce,
+    live: "https://frontend-e-commerce-two-nu.vercel.app/",
+  },
   {
     title: "Social Media App",
     description:
