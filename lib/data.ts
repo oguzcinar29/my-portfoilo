@@ -36,32 +36,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
+export const experiencesData = [] as const;
 
 export const projectsData = [
   {
@@ -71,6 +46,7 @@ export const projectsData = [
     tags: ["React", "CSS", "HTML", "Javascrip3t"],
     imageUrl: niceEcommerce,
     live: "https://frontend-e-commerce-two-nu.vercel.app/",
+    github: "https://github.com/oguzcinar29/frontend-e-commerce-two",
   },
   {
     title: "Social Media App",
@@ -79,14 +55,16 @@ export const projectsData = [
     tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
     imageUrl: socialMediaImg,
     live: "https://social-media-eta-amber.vercel.app/login",
+    github: "https://github.com/oguzcinar29/social-media",
   },
   {
     title: "Nextjs Blog Website",
     description:
-      "This is the first project that i made as a full stack developer.It needs bunch of upgrades.In this website you can share post delete edit whatever you want.",
+      "This is the blog website.You can share your post, delete, edit,be able to add image.",
     tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: blogWebImg,
     live: "https://nextjs-blog-website-chi.vercel.app",
+    github: "https://github.com/oguzcinar29/nextjs-blog-website",
   },
   {
     title: "Front-end E-Commerce",
@@ -94,6 +72,7 @@ export const projectsData = [
     tags: ["React", "Javascript", "HTML", "CSS"],
     imageUrl: frontCommerceImg,
     live: "https://front-end-e-commerce-nine.vercel.app",
+    github: "https://github.com/oguzcinar29/front-end-e-commerce",
   },
   {
     title: "Full-Stack E-Commerce",
@@ -102,6 +81,7 @@ export const projectsData = [
     tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
     imageUrl: fullStackCommerceImg,
     live: "https://full-stack-e-commerce-eight.vercel.app/",
+    github: "https://github.com/oguzcinar29/full-stack-e-commerce",
   },
 ] as const;
 

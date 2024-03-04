@@ -11,7 +11,10 @@ export default function Projects() {
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <SectionHeading>My projects</SectionHeading>
+      <SectionHeading>My projects </SectionHeading>
+      <p className="text-center pb-3">
+        ( Using free database have to wait little bit to fetch data.Thank you)
+      </p>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
