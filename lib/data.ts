@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import blogWebImg from "@/public/project1-img.png";
+import blogWebImg from "@/public//33.png";
 import frontCommerceImg from "@/public/project2-img.png";
 import fullStackCommerceImg from "@/public/projec132.png";
 import socialMediaImg from "@/public/22.png";
@@ -81,12 +81,12 @@ export const projectsData = [
     live: "https://social-media-eta-amber.vercel.app/login",
   },
   {
-    title: "Blog Website",
+    title: "Nextjs Blog Website",
     description:
       "This is the first project that i made as a full stack developer.It needs bunch of upgrades.In this website you can share post delete edit whatever you want.",
-    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
+    tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: blogWebImg,
-    live: "https://blog-website-inky-tau.vercel.app",
+    live: "https://nextjs-blog-website-chi.vercel.app",
   },
   {
     title: "Front-end E-Commerce",
@@ -102,14 +102,6 @@ export const projectsData = [
     tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
     imageUrl: fullStackCommerceImg,
     live: "https://full-stack-e-commerce-eight.vercel.app/",
-  },
-  {
-    title: "Nextjs Blog Website",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
-    imageUrl: nextTodo,
-    live: "https://nextjs-todo-omega.vercel.app/",
   },
 ] as const;
 
