@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import blogWebImg from "@/public//33.png";
 import frontCommerceImg from "@/public/project2-img.png";
-import fullStackCommerceImg from "@/public/projec132.png";
+import fullStackCommerceImg from "@/public/ee.png";
 import socialMediaImg from "@/public/22.png";
 import nextTodo from "@/public/12.png";
 import niceEcommerce from "@/public/1231.png";
@@ -75,12 +75,12 @@ export const projectsData = [
     github: "https://github.com/oguzcinar29/front-end-e-commerce",
   },
   {
-    title: "Full-Stack E-Commerce",
+    title: "Full-Stack E-Commerce Next.js",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
+    tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: fullStackCommerceImg,
-    live: "https://full-stack-e-commerce-eight.vercel.app/",
+    live: "https://nextjs-e-commerce-rosy.vercel.app",
     github: "https://github.com/oguzcinar29/full-stack-e-commerce",
   },
 ] as const;
