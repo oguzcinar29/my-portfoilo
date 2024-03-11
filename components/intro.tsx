@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import img from "../public/pp-removebg.png";
+import img from "../public/A0413.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -50,8 +50,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Oguz.</span> I'm a{" "}
-        <span className="font-bold">Full-Stack developer</span>I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">Full-Stack developer </span> I enjoy
+        building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
