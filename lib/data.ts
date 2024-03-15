@@ -75,16 +75,6 @@ export const projectsData = [
     live: "https://front-end-e-commerce-nine.vercel.app",
     github: "https://github.com/oguzcinar29/front-end-e-commerce",
   },
-
-  {
-    title: "Social Media App",
-    description:
-      "Thats my mona lisa.I've spent for so many times for this project.That was fun to make it",
-    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
-    imageUrl: socialMediaImg,
-    live: "https://social-media-eta-amber.vercel.app/login",
-    github: "https://github.com/oguzcinar29/social-media",
-  },
 ] as const;
 
 export const skillsData = [
