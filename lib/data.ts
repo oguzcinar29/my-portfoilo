@@ -40,6 +40,15 @@ export const experiencesData = [] as const;
 
 export const projectsData = [
   {
+    title: "Full-Stack E-Commerce Next.js",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
+    imageUrl: fullStackCommerceImg,
+    live: "https://nextjs-e-commerce-rosy.vercel.app",
+    github: "https://github.com/oguzcinar29/full-stack-e-commerce",
+  },
+  {
     title: "E-Commerce Website",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
@@ -48,15 +57,7 @@ export const projectsData = [
     live: "https://frontend-e-commerce-two-nu.vercel.app/",
     github: "https://github.com/oguzcinar29/frontend-e-commerce-two",
   },
-  {
-    title: "Social Media App",
-    description:
-      "Thats my mona lisa.I've spent for so many times for this project.That was fun to make it",
-    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
-    imageUrl: socialMediaImg,
-    live: "https://social-media-eta-amber.vercel.app/login",
-    github: "https://github.com/oguzcinar29/social-media",
-  },
+
   {
     title: "Nextjs Blog Website",
     description:
@@ -74,14 +75,15 @@ export const projectsData = [
     live: "https://front-end-e-commerce-nine.vercel.app",
     github: "https://github.com/oguzcinar29/front-end-e-commerce",
   },
+
   {
-    title: "Full-Stack E-Commerce Next.js",
+    title: "Social Media App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
-    imageUrl: fullStackCommerceImg,
-    live: "https://nextjs-e-commerce-rosy.vercel.app",
-    github: "https://github.com/oguzcinar29/full-stack-e-commerce",
+      "Thats my mona lisa.I've spent for so many times for this project.That was fun to make it",
+    tags: ["React", "Postgresql", "CSS", "HTML", "Node.js", "Exprees"],
+    imageUrl: socialMediaImg,
+    live: "https://social-media-eta-amber.vercel.app/login",
+    github: "https://github.com/oguzcinar29/social-media",
   },
 ] as const;
 
