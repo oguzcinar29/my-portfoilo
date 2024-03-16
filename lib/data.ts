@@ -8,7 +8,7 @@ import fullStackCommerceImg from "@/public/ee.png";
 import socialMediaImg from "@/public/22.png";
 import nextTodo from "@/public/12.png";
 import niceEcommerce from "@/public/1231.png";
-
+import rentcar from "@/public/3333333.png";
 export const links = [
   {
     name: "Home",
@@ -52,9 +52,18 @@ export const projectsData = [
     title: "E-Commerce Website",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "CSS", "HTML", "Javascrip3t"],
+    tags: ["React", "CSS", "HTML", "Javascript"],
     imageUrl: niceEcommerce,
     live: "https://frontend-e-commerce-two-nu.vercel.app/",
+    github: "https://github.com/oguzcinar29/frontend-e-commerce-two",
+  },
+  {
+    title: "Rent Car Website",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "CSS", "HTML", "Javascript"],
+    imageUrl: rentcar,
+    live: "https://rent-car-react.vercel.app/",
     github: "https://github.com/oguzcinar29/frontend-e-commerce-two",
   },
 
