@@ -42,7 +42,7 @@ export const projectsData = [
   {
     title: "Full-Stack E-Commerce Next.js",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "This is full stack e commerce website.There is a admin panel where owner can delete,add or edit post and user information.Admin panel can be used just by admin.Users cant change any product information.",
     tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: fullStackCommerceImg,
     live: "https://nextjs-e-commerce-rosy.vercel.app",
@@ -50,8 +50,7 @@ export const projectsData = [
   },
   {
     title: "E-Commerce Website",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    description: "Front End e commerce website.There is no database",
     tags: ["React", "CSS", "HTML", "Javascript"],
     imageUrl: niceEcommerce,
     live: "https://frontend-e-commerce-two-nu.vercel.app/",
@@ -60,7 +59,7 @@ export const projectsData = [
   {
     title: "Rent Car Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Front End rent car website.That was the project that i made in the begining of my journey.No complex anything in there.",
     tags: ["React", "CSS", "HTML", "Javascript"],
     imageUrl: rentcar,
     live: "https://rent-car-react.vercel.app/",
@@ -70,7 +69,7 @@ export const projectsData = [
   {
     title: "Nextjs Blog Website",
     description:
-      "This is the blog website.You can share your post, delete, edit,be able to add image.",
+      "This is the blog website.You can share your post, delete, edit,be able to add image. Also there is a admin panel too.",
     tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: blogWebImg,
     live: "https://nextjs-blog-website-chi.vercel.app",
