@@ -6,12 +6,16 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { icons } from "react-icons";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Oguz | Personal Portfolio",
   description: "Oguz is a full-stack developer.",
+  icons: {
+    icon: "./site-icon (3).ico",
+  },
 };
 
 export default function RootLayout({
