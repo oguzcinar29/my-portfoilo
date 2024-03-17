@@ -19,20 +19,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hello, my name is Oguz. I am 23 years old. I was studying electrical and
-        electronics engineering, but I decided to quit. It wasn't the profession
-        of my dreams, so I stopped pursuing it. Instead, I have decided to
-        pursue software development, and I absolutely love it. It feels like the
-        perfect fit for me.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and psychology</span>. I'm also
-        learning how to play the guitar.
+        I'm Oğuz, a former student of electrical engineering who discovered a
+        passion for programming while studying. My journey began with learning C
+        and C++ during my time in university, where I found immense joy in
+        software development. Subsequently, I made the bold decision to
+        transition into the web development sphere, which led me to depart from
+        my university education. In pursuit of becoming a proficient web
+        developer, I devoted myself to self-directed learning and skill
+        enhancement. Through various Udemy courses and acquiring certifications,
+        I deepened my understanding of web technologies. I supplemented
+        theoretical knowledge with practical application, constructing a diverse
+        portfolio of projects that showcased my capabilities. By combining
+        theoretical insights with hands-on experience, I solidified my expertise
+        in web development. I am now adept at creating dynamic and visually
+        appealing websites, driven by a blend of creativity and technical
+        proficiency. I am eager to leverage my skills and passion for web
+        development to contribute effectively to your team and contribute to
+        meaningful projects.
       </p>
     </motion.section>
   );
