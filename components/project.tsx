@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
+import { Github, SquareArrowOutUpRight } from "lucide-react";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -11,6 +13,8 @@ export default function Project({
   title,
   description,
   tags,
+  github,
+  live,
   imageUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -46,6 +50,20 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <div className="pt-4 flex gap-7">
+            <div className="flex items-center gap-1">
+              <span>Code</span>
+              <a href={github}>
+                <Github />
+              </a>
+            </div>
+            <div className="flex items-center gap-1">
+              <span>Live Demo</span>
+              <a href={live}>
+                <SquareArrowOutUpRight />
+              </a>
+            </div>
+          </div>
         </div>
 
         <Image

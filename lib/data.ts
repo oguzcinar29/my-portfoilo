@@ -8,6 +8,7 @@ import fullStackCommerceImg from "@/public/ee.png";
 import socialMediaImg from "@/public/22.png";
 import nextTodo from "@/public/12.png";
 import niceEcommerce from "@/public/1231.png";
+import pizzaOrder from "@/public/444.png";
 import rentcar from "@/public/3333333.png";
 export const links = [
   {
@@ -41,12 +42,11 @@ export const experiencesData = [] as const;
 export const projectsData = [
   {
     title: "Full-Stack E-Commerce Next.js",
-    description:
-      "This is full stack e commerce website.There is a admin panel where owner can delete,add or edit post and user information.Admin panel can be used just by admin.Users cant change any product information.",
+    description: "This is full stack e commerce website.",
     tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: fullStackCommerceImg,
     live: "https://nextjs-e-commerce-rosy.vercel.app",
-    github: "https://github.com/oguzcinar29/full-stack-e-commerce",
+    github: "https://github.com/oguzcinar29/nextjs-e-commerce",
   },
   {
     title: "E-Commerce Website",
@@ -56,20 +56,28 @@ export const projectsData = [
     live: "https://frontend-e-commerce-two-nu.vercel.app/",
     github: "https://github.com/oguzcinar29/frontend-e-commerce-two",
   },
+
   {
     title: "Rent Car Website",
     description:
-      "Front End rent car website.That was the project that i made in the begining of my journey.No complex anything in there.",
+      "Front End rent car website.That was the project that i made in the begining of my journey.",
     tags: ["React", "CSS", "HTML", "Javascript"],
     imageUrl: rentcar,
     live: "https://rent-car-react.vercel.app/",
-    github: "https://github.com/oguzcinar29/frontend-e-commerce-two",
+    github: "https://github.com/oguzcinar29/rent-car-react",
   },
-
+  {
+    title: "Pizza Order Nextjs",
+    description: "Thats full stack project made with nextjs.",
+    tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Javascript"],
+    imageUrl: pizzaOrder,
+    live: "https://pizza-e-commerce-nine.vercel.app",
+    github: "https://github.com/oguzcinar29/pizza-e-commerce",
+  },
   {
     title: "Nextjs Blog Website",
     description:
-      "This is the blog website.You can share your post, delete, edit,be able to add image. Also there is a admin panel too.",
+      "This is the blog website.You can share your post, delete, edit,be able to add image.",
     tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: blogWebImg,
     live: "https://nextjs-blog-website-chi.vercel.app",
