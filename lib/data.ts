@@ -10,6 +10,7 @@ import nextTodo from "@/public/12.png";
 import niceEcommerce from "@/public/1231.png";
 import pizzaOrder from "@/public/444.png";
 import rentcar from "@/public/3333333.png";
+import event from "@/public/43.png";
 export const links = [
   {
     name: "Home",
@@ -40,6 +41,14 @@ export const links = [
 export const experiencesData = [] as const;
 
 export const projectsData = [
+  {
+    title: "Full-Stack E-Commerce Next.js",
+    description: "This is full stack e commerce website.",
+    tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
+    imageUrl: event,
+    live: "https://event-platform-nextjs.vercel.app/",
+    github: "https://github.com/oguzcinar29/event-platform-nextjs",
+  },
   {
     title: "Full-Stack E-Commerce Next.js",
     description: "This is full stack e commerce website.",
