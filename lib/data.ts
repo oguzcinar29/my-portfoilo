@@ -43,7 +43,7 @@ export const experiencesData = [] as const;
 
 export const projectsData = [
   {
-    title: "Evently ",
+    title: "Evently Full-Stack Events App",
     description: "This is full stack project where you can buy event ticket.",
     tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: event,
