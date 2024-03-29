@@ -43,8 +43,8 @@ export const experiencesData = [] as const;
 
 export const projectsData = [
   {
-    title: "Full-Stack E-Commerce Next.js",
-    description: "This is full stack e commerce website.",
+    title: "Evently ",
+    description: "This is full stack project where you can buy event ticket.",
     tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
     imageUrl: event,
     live: "https://event-platform-nextjs.vercel.app/",
