@@ -11,6 +11,7 @@ import niceEcommerce from "@/public/1231.png";
 import pizzaOrder from "@/public/444.png";
 import rentcar from "@/public/3333333.png";
 import event from "@/public/43.png";
+import snap from "@/public/snap.png";
 export const links = [
   {
     name: "Home",
@@ -64,6 +65,14 @@ export const projectsData = [
     imageUrl: niceEcommerce,
     live: "https://frontend-e-commerce-two-nu.vercel.app/",
     github: "https://github.com/oguzcinar29/frontend-e-commerce-two",
+  },
+  {
+    title: "Snapgram Social Media",
+    description: "Full stack project made with nextjs.",
+    tags: ["React", "MongoDB", "Nextjs", "Tailwind", "Typescript"],
+    imageUrl: snap,
+    live: "https://snapgram-phi-swart.vercel.app/",
+    github: "https://github.com/oguzcinar29/snapgram",
   },
 
   {
