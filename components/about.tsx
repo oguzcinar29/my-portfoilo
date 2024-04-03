@@ -24,9 +24,7 @@ export default function About() {
         development during university. I left formal education to focus on web
         development, diving into self-learning through Udemy courses and
         certifications. Building a robust portfolio, I honed my skills in
-        creating dynamic and visually appealing websites. Now, I'm eager to
-        bring my blend of creativity and technical proficiency to your team and
-        contribute to impactful projects.
+        creating dynamic and visually appealing websites.
       </p>
     </motion.section>
   );
