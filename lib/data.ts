@@ -12,7 +12,7 @@ import pizzaOrder from "@/public/444.png";
 import rentcar from "@/public/3333333.png";
 import event from "@/public/43.png";
 import snap from "@/public/snap.png";
-import eyewear from "@/public/eye.png";
+import eyewear from "@/public/eyewear-img.png";
 export const links = [
   {
     name: "Home",
