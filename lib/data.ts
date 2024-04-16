@@ -12,6 +12,7 @@ import pizzaOrder from "@/public/444.png";
 import rentcar from "@/public/3333333.png";
 import event from "@/public/43.png";
 import snap from "@/public/snap.png";
+import eyewear from "@/public/eyewear-store-img.png";
 export const links = [
   {
     name: "Home",
@@ -30,10 +31,6 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
     name: "Contact",
     hash: "#contact",
   },
@@ -49,6 +46,14 @@ export const projectsData = [
     imageUrl: event,
     live: "https://event-platform-nextjs.vercel.app/",
     github: "https://github.com/oguzcinar29/event-platform-nextjs",
+  },
+  {
+    title: "Eyewear Full-Stack  App",
+    description: "Its full stack eyewear store app where you can buy glasses.",
+    tags: ["React", "MongoDB", "Node.js", "Express", "Tailwind", "Typescript"],
+    imageUrl: eyewear,
+    live: "https://eyewear-store-app.onrender.com/",
+    github: "https://github.com/oguzcinar29/eyewear-store-app",
   },
   {
     title: "Full-Stack E-Commerce Next.js",
@@ -100,14 +105,6 @@ export const projectsData = [
     imageUrl: blogWebImg,
     live: "https://nextjs-blog-website-chi.vercel.app",
     github: "https://github.com/oguzcinar29/nextjs-blog-website",
-  },
-  {
-    title: "Front-end E-Commerce",
-    description: "That's made with just front-end basic e-commerce website.",
-    tags: ["React", "Javascript", "HTML", "CSS"],
-    imageUrl: frontCommerceImg,
-    live: "https://front-end-e-commerce-nine.vercel.app",
-    github: "https://github.com/oguzcinar29/front-end-e-commerce",
   },
 ] as const;
 
